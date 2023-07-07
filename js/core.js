@@ -3,10 +3,10 @@ window.onload = function () {
     // GENERAL CONFIGS v0.1
 
     //Site title
-    let title = 'BattleCraft';
+    let title = 'EpicVerse';
 
     //Server Ip (counter)
-    var serverIp = 'play.foxcraft.net';
+    var serverIp = 'play.epicversesmp.com';
     var serverIpPort = 25565;
 
     //Banner image (url) 
@@ -25,7 +25,7 @@ window.onload = function () {
     //--------------------------------------------
 
     //Type Server (FullPVP, MiniGame, Survival, and others...)
-    var typeServer = 'Full PVP';
+    var typeServer = 'Earth';
 
     //--------------- Home Gallery ---------------
     // Image automatically changes according to the name :)
@@ -44,8 +44,8 @@ window.onload = function () {
     var urlFacebook = "https://github.com/Tiagox42";
     var urlTwiiter = "https://github.com/Tiagox42";
     var urlInstagram = "https://www.instagram.com/tdantas42/";
-    var urlYoutube = "https://www.youtube.com/user/Tg42x/videos";
-    var discordInvite = "https://github.com/Tiagox42";
+    var urlYoutube = "https://www.youtube.com/@EpicVerseSMP";
+    var discordInvite = "https://discord.gg/4rrk6ZtfQ7";
     var bannerSocialImage = "https://i.imgur.com/oSbKvAT.png";
 
 

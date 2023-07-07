@@ -11,8 +11,8 @@
     margin-bottom: 40px;
     border-radius: 15px;
     width: 60%;
-    border-top: solid 5px rgb(212, 117, 0);
-    border-bottom: solid 5px rgb(212, 117, 0);
+    border-top: solid 5px #E0B0FF;
+    border-bottom: solid 5px #E0B0FF;
 }
 
 .articleTitle {

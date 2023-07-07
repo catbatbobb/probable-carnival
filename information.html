@@ -24,7 +24,7 @@
 <body>
     <div class="container">
         <div class="serverIp" onclick="copyIp()">
-            <p>Server status: <span class="serverStatus" id="serverStatus">...</span> Players: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>Server status: <span class="serverStatus" id="serverStatus">Offline</span> Players: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
             <p>SERVER IP » <span class="serverIpText" id="serverIpText">..</span></p>
             
         </div>
@@ -46,9 +46,9 @@
             <nav>
                 <ul>
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="./news.html">News</a></li>
                     <li><a style="color: white;" href="./information.html">Information</a></li>
-                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="https://epicversesmp.tebex.io/">Shop</a></li>
+                    <li><a href="http://play.epicversesmp.com:8181/#spawn;flat;38,64,10;4">Dynmap</a></li>
                     <li><a href="./help.html">Help</a></li>
                 </ul>
             </nav>
@@ -70,21 +70,55 @@
                 <div class="barPurple"></div>
                 <div class="infoblockText">
                     <p class="infobTitle">Rules</p>
-                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis.
-                        Suspendisse vitae nunc pharetra.</p>
+                    <p class="infobDescription">EpicVerse Server rules.</p>
                     <p class="infobContent" id="content1">
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut
-                        scelerisque tincidunt massa, sed aliquet nunc viverra nec. In hac habitasse platea dictumst. Ut
-                        malesuada, quam in mattis sollicitudin, lacus turpis faucibus mi, sed accumsan purus arcu non
-                        magna. Praesent blandit rhoncus dapibus. Cras arcu lectus, aliquam id tempus in, pharetra eget
-                        tortor. Curabitur et mi in leo elementum finibus. Phasellus commodo, dui sed laoreet tempor,
-                        elit felis congue libero, vehicula elementum felis risus et leo. Ut eget ex vitae ligula semper
-                        mattis. Ut tempor felis in enim semper, eget mollis lacus
-                        sodales. Sed condimentum dapibus fringilla. Donec arcu dolor, accumsan quis lacinia tempus,
-                        luctus sed nisl. Suspendisse accumsan accumsan lacus, in luctus metus aliquet eu. Nullam vel
-                        elit ex.
-                        <img style="height: 200px;"
-                            src="https://i.pinimg.com/originals/d7/70/5b/d7705b4b6c3dbf719523b248ef646a0f.jpg" alt="">
+                        <strong>RULES</strong><br>
+                        Clean Game<br>
+                        No profanity, spamming, excessive caps, English only in global chat (use /r or /msg for other languages)<br>
+                        No inappropriate skins, names, builds, signs, etc.<br>
+                        As with the 'keeping safe online' Do not engage in inappropriate behaviour on any platform. Please report it if you have concerns.<br>
+                        Pvp'ing without consent not allowed, in a pvp arenas.<br>
+                        Tp trap killing or death camping is not allowed.<br>
+                        No Hacked Clients<br>
+                        Any mod that gives you an advantage is not allowed<br>
+                        Hacks like; X-ray, Flying, Speed, etc are not allowed.<br>
+                        Do not use autoclickers in PvP<br>
+                        Do not abuse glitches<br>
+                        Duping, cheating, etc. Please report and you may even get a reward ;)<br>
+                        Nether Roof Building is strictly prohibited<br>
+                        Glitch onto the Nether Roof and building there is not allowed.<br>
+                        Server Griefing<br>
+                        No lava casts, encasing, flooding nor world, nether or end griefing<br>
+                        No trolling<br>
+                        Harassment, scamming, encouraging harm, trapping<br>
+                        Don't discuss punishments. Don't ban/mute evade with other accounts.<br>
+                        No inappropriate content<br>
+                        Referencing or talking about vulgar, sexual or drug topics etc.<br>
+                        Names, skins, banners, builds, item names, etc.<br>
+                        Do not impersonate staff<br>
+                        Name, colour, rank etc.<br>
+                        Do not leak personal information<br>
+                        Leaking personal information without the person's permission such as full names, addresses and any other personally identifiable information<br>
+                        No AFKing at areas which gives you an advantage<br>
+                        Auto-farms, grinders, etc.<br>
+                        No AFK devices<br>
+                        Pools etc<br>
+                        No Zero Tick/Flying machines<br>
+                        We may also ask you to remove any large areas which cause server lag<br>
+                        Please be efficient with your redstone machines<br>
+                        <br>
+                         <strong>TOWNY AGE</strong><br>
+                        Poaching of players from other towns, or towns from other nations is not allowed<br>
+                        Players and Towns must make the first approach!<br>
+                        Raiding of unclaimed bases/bankrupt towns is allowed, but not griefing them<br>
+                        All block changes are recorded by the server<br>
+                        Donating/giving away ranked perks or donator items is not allowed<br>
+                        Donators cannot give away donor perks and items, nor donor perks to players who are not the same rank.<br>
+                        Ranked perks in-game cannot be given used for other players that have not achieved the ranked perks.<br>
+                        Donors and ranked players may not give/sell/use perks and benefits for other players<br>
+                        This covers in-games ranks and donor ranks.<br>
+                        Tools, armour etc cannot be used/given to non-ranked players<br>
+                        There are strict limits on hoppers, chests, item frames, spawners etc.
                     </p>
                 </div>
                 <input class="infoblockButtonPurple" type="button" value="+" onclick="openContent1()" id="button1">
@@ -161,32 +195,25 @@
 
             <p class="articleDescription">Vivamus porta erat elit, nec luctus augue finibus at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla lobortis maximus massa at ultricies. Nunc ac ex sed elit convallis pretium ac a nulla. Donec sagittis faucibus pretium. Praesent non leo turpis. Etiam auctor tristique neque vitae lacinia. Maecenas felis neque, fermentum vel scelerisque et, ultricies ac urna. Duis posuere lacus et porttitor molestie.</p>
 
-            <p class="articleTitle">Tutorial video</p>
-
-            <div class="tutorialVideo">
-                <div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l6IcWZHico8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-                <div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3SDJljtLa84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-
         </div>
 
         <div class="extra">
-            <iframe src="https://discord.com/widget?id=620346870748676137&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <iframe src="https://discord.com/widget?id=1122591448387309672&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
 
 
         <div class="clear"></div>
         <footer>
             <p>All rights reserved.</p>
-            <p>Website created by <a href="https://github.com/Tiagox42"><strong>Tiagox42</strong></a> / Doritoz#2416</p>
+            <p>Made By catboomfat</p>
         </footer>
     </div>
-
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+        new Crate({
+            server: '1122591448387309672', // EpicVerse Smp
+            channel: '1122591449591054510' // #ℹ・information
+        })
+    </script> 
 </body>
 
 </html>

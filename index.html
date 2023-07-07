@@ -21,7 +21,7 @@
 <body>
     <div class="container">
         <div class="serverIp" onclick="copyIp()">
-            <p>Server status: <span class="serverStatus" id="serverStatus">...</span> Players: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>Server status: <span class="serverStatus" id="serverStatus">Offline</span> Players: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
             <p>SERVER IP » <span class="serverIpText" id="serverIpText">..</span></p>
             
         </div>
@@ -43,9 +43,9 @@
             <nav>
                 <ul>
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="./news.html">News</a></li>
                     <li><a href="./information.html">Information</a></li>
-                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="https://epicversesmp.tebex.io/">Shop</a></li>
+                    <li><a href="http://play.epicversesmp.com:8181/#spawn;flat;38,64,10;4">Dynmap</a></li>
                     <li><a href="./help.html">Help</a></li>
                 </ul>
             </nav>
@@ -88,13 +88,12 @@
                     <p style="color: red;">We have:</p>
                     <br>
                     <ul style="list-style-type: disc;">
-                        <li>Own and fun mechanics</li>
-                        <li>Custom maps</li>
-                        <li>Daily Events</li>
+                        <li>Earth MAP</li>
+                        <li>Resource world</li>
+                        <li>Towny</li>
                         <li>Economy System</li>
-                        <li>House System</li>
-                        <li>Clans System</li>
-                        <li>Competent team</li>
+                        <li>Custom resource packs</li>
+                        <li>Slimefun</li>
                     </ul>
                     <br>
                     <p style="text-shadow: none;">and much more</p>
@@ -140,19 +139,18 @@
             <div class="butBox">
 
                 <div class="butIcon">
-                    <a id="urlFacebook" href="#"><img src="img/social1.png" alt=""></a>
-                </div>
-
-                <div class="butIcon">
-                    <a id="urlTwiiter" href="#"><img src="img/social2.png" alt=""></a>
-                </div>
-
-                <div class="butIcon">
-                    <a id="urlInstagram" href="#"><img src="img/social3.png" alt=""></a>
-                </div>
-
-                <div class="butIcon">
                     <a id="urlYoutube" href="#"><img src="img/social4.png" alt=""></a>
+                </div>
+                <div class="butIcon">
+                    <a id="urlFacebook" href="#"><img src="" alt=""></a>
+                </div>
+
+                <div class="butIcon">
+                    <a id="urlTwiiter" href="#"><img src="" alt=""></a>
+                </div>
+
+                <div class="butIcon">
+                    <a id="urlInstagram" href="#"><img src="" alt=""></a>
                 </div>
 
                 <a id="discordInvite" href="#">
@@ -171,10 +169,15 @@
 
         <footer>
             <p>All rights reserved.</p>
-            <p>Website created by <a href="https://github.com/Tiagox42"><strong>Tiagox42</strong></a> / Doritoz#2416</p>
+            <p>Made By catboomfat</p>
         </footer>
     </div>
-
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+        new Crate({
+            server: '1122591448387309672', // EpicVerse Smp
+            channel: '1122591449591054510' // #ℹ・information
+        })
+    </script> 
 </body>
 
 </html>

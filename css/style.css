@@ -54,7 +54,7 @@ html, body {
     font-size: 16px;
     font-family: 'Play', sans-serif;
     text-align: center;
-    background-color: darkorange;
+    background-color: #DA70D6;
     padding: 4px;
     color: black;
     font-weight: bolder;
@@ -82,7 +82,7 @@ html, body {
 
 .bar {
     height: 5px;
-    background-color: rgb(168, 93, 0);
+    background-color: #E0B0FF;
 }
 
 .clear {
@@ -106,7 +106,7 @@ html, body {
 .menu a {
     text-decoration: none;
     font-size: 30px;
-    color: rgb(255, 180, 41);
+    color: #E0B0FF;
     font-family: VampireWars;
     text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
 }
@@ -117,7 +117,7 @@ html, body {
 
 .barTwo {
     height: 5px;
-    background-color: rgb(168, 93, 0);
+    background-color: #DA70D6;
 }
 
 .homeGallery {
@@ -230,7 +230,7 @@ li {
 }
 
 .comments {
-    background-color: orange;
+    background-color: #DA70D6;
 }
 
 .co {
@@ -240,7 +240,7 @@ li {
     text-align: center;
     padding: 50px;
     padding-top: 30px;
-    background-color: orange;
+    background-color: #DA70D6;
 }
 
 .co img {
