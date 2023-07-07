@@ -30,8 +30,8 @@ window.onload = function () {
     //--------------- Home Gallery ---------------
     // Image automatically changes according to the name :)
     //Firs player nick / comment text
-    var firstPlayerName = 'Dor1toz';
-    var firstPlayerComment = "The best server, great fun and the team helps whenever I need it!";
+    var firstPlayerName = 'flymc420';
+    var firstPlayerComment = "I am a lier!";
     //Second player nick / comment text
     var secondPlayerName = 'Tester';
     var secondPlayerComment = "Fun, cute and cool. All my friends are playing here and let's make a clan, best server ever";
