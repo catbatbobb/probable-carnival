@@ -46,7 +46,7 @@ window.onload = function () {
     var urlInstagram = "https://www.instagram.com/tdantas42/";
     var urlYoutube = "https://www.youtube.com/@EpicVerseSMP";
     var discordInvite = "https://discord.gg/4rrk6ZtfQ7";
-    var bannerSocialImage = "https://i.imgur.com/oSbKvAT.png";
+    var bannerSocialImage = "https://i.imgur.com/BRSQkhY.png";
 
 
     //------------------ DO NOT MODIFY THE CONTENT BELOW ------------------
