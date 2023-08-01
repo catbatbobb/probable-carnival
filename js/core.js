@@ -3,7 +3,7 @@ window.onload = function () {
     // GENERAL CONFIGS v0.1
 
     //Site title
-    let title = 'EpicVerse';
+    let title = '';
 
     //Server Ip (counter)
     var serverIp = 'play.epicversesmp.com';
