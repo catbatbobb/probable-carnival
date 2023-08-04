@@ -1,6 +1,6 @@
 function check(form) {
-    username = new Array("catboomfat", "Me262", "DubRave");
-    password = new Array("Minecraft1!", "Mediumsteak123@", "xXPieEaterXx1000");
+    username = new Array("catboomfat", "Me262", "DubRave", "Daniel");
+    password = new Array("Minecraft1!", "Mediumsteak123@", "xXPieEaterXx1000", "Danny13");
 
 	if(form.userid.value == username[0] && form.pswrd.value == password[0]||form.userid.value == username[1] && form.pswrd.value == password[1]) {
 		location.replace('cat.html')/* The Administrator homepage */
